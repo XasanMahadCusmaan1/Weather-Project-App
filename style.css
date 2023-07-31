@@ -20,6 +20,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(/images/pexels-francesco-ungaro-2835436.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover ;
+  backdrop-filter: blur(10px);
 }
 .container {
   padding: 40px;
@@ -82,6 +87,7 @@ button{
 .temp-text h2{
   font-weight: 400;
   font-size: 40px;
+  position: relative;
 }
 /* Ended  */
 /* bottom section styling started */
@@ -113,3 +119,4 @@ p{
 /* .headen-sections{
   display: none;
 } */
+
