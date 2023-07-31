@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Reset styles for the css  */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
+/* The design system  */
 :root{
     --white-color: #ffffff;
     --black-color: #000000;
@@ -25,6 +27,7 @@ body {
   background: linear-gradient(180deg, #bbe7f5 22.4%, #fc52ff 100%);
   box-shadow: inset 0px 0px 5px var(--black-color);
 }
+/* styling the top section for the app  */
 .search-bar-section{
     display: flex;
     align-items: center;
@@ -64,6 +67,8 @@ button{
   display: grid;
   place-content: center;
 }
+/* Ended the top syling section  */
+/* temprature section styling started */
 .temp-text{
   text-align: center;
   color: var(--white-color);
@@ -78,6 +83,8 @@ button{
   font-weight: 400;
   font-size: 40px;
 }
+/* Ended  */
+/* bottom section styling started */
 .bottom-section{
   display: flex;
   justify-content: space-between;
@@ -101,6 +108,7 @@ h3{
 p{
   font-weight: 300;
 }
+/* ended  */
 /* Headen sections for the project */
 /* .headen-sections{
   display: none;
