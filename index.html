@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <section class="search-bar-section">
+          <div class="input-container">
+            <input type="text" placeholder="Enter Country" required />
+          </div>
+          <div class="search-button-container">
+            <button type="button">
+              Search <img src="/images/rain.png" alt="icon" width="30px" />
+            </button>
+          </div>
+        </section>
+        <div class="headen-sections">
+          <section class="temprature-section">
+            <div class="image">
+              <img src="/images/temprature.png" alt="tem" />
+            </div>
+            <div class="temp-text">
+              <h1>7°c</h1>
+              <h2>New York</h2>
+            </div>
+          </section>
+          <section class="bottom-section">
+            <div class="humidity-section">
+              <div class="image-side">
+                <img src="/images/humidity.png" alt="humidity" width="40px" />
+              </div>
+              <div class="humidity-text-side">
+                <h3>58%</h3>
+                <p>Humidity</p>
+              </div>
+            </div>
+            <div class="wind-speed-section">
+              <div class="wind-image-side">
+                <img src="/images/storm.png" alt="storm" width="40px" />
+              </div>
+              <div class="wind-text-side">
+                <h3>10.29 km/h</h3>
+                <p>Wind Speed</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script src="/main.js"></script>
+  </body>
+</html>
